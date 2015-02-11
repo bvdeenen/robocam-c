@@ -1,0 +1,20 @@
+# $Id: main.aap,v 1.12 2004/08/04 13:55:10 bvdeenen Exp $
+
+all:	corr noise autocam
+
+DEFINE = -g -D_GNU_SOURCE 
+
+CFLAGS = -Wall -Wno-unused 
+
+LIBS= -lm
+
+
+:program autocam :	
+	main.cc pol.cc rect.cc sonar.cc matrix.cc vector.cc \
+	sim_noise.cc find_pulse.cc
+
+:program corr :		
+		corr.cc find_pulse.cc
+
+:program noise :
+		noise.c

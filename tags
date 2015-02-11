@@ -1,0 +1,87 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.2	//
+Add	rect.cc	/^Rect Rect::Add(Rect *other)$/;"	f	class:Rect
+FIND_PULSE_H	find_pulse.h	2;"	d
+Invert	rect.cc	/^void Rect::Invert()$/;"	f	class:Rect
+Len	rect.cc	/^double Rect::Len()$/;"	f	class:Rect
+Matrix	matrix.cc	/^Matrix::Matrix()$/;"	f	class:Matrix
+Matrix	matrix.cc	/^Matrix::Matrix(double m[9])$/;"	f	class:Matrix
+Matrix	matrix.h	/^class Matrix {$/;"	c
+P2R	pol.cc	/^Rect Pol::P2R()$/;"	f	class:Pol
+Pol	pol.cc	/^Pol::Pol(void)$/;"	f	class:Pol
+Pol	pol.h	/^class Pol {$/;"	c
+R2P	rect.cc	/^Pol Rect::R2P()$/;"	f	class:Rect
+Range	sonar.cc	/^Vector Sonar::Range(Pol *target)$/;"	f	class:Sonar
+Rect	rect.cc	/^Rect::Rect()$/;"	f	class:Rect
+Rect	rect.cc	/^Rect::Rect(double x, double y, double z)$/;"	f	class:Rect
+Rect	rect.h	/^class Rect {$/;"	c
+SIM_NOISE_H	sim_noise.h	2;"	d
+Set	pol.cc	/^void Pol::Set(double r, double phi, double theta)$/;"	f	class:Pol
+Set	rect.cc	/^void Rect::Set(double x, double y, double z)$/;"	f	class:Rect
+Solve	sonar.cc	/^Rect Sonar::Solve(Vector *l)$/;"	f	class:Sonar
+Sonar	sonar.cc	/^Sonar::Sonar(double w, double h)$/;"	f	class:Sonar
+Sonar	sonar.h	/^class	Sonar {$/;"	c
+Subtract	rect.cc	/^Rect Rect::Subtract(Rect *other)$/;"	f	class:Rect
+Vector	vector.cc	/^Vector::Vector()$/;"	f	class:Vector
+Vector	vector.cc	/^Vector::Vector(double v[dim])$/;"	f	class:Vector
+Vector	vector.cc	/^Vector::Vector(double x, double y, double z)$/;"	f	class:Vector
+Vector	vector.h	/^class Vector {$/;"	c
+WRITE_ARRAY	find_pulse.cc	30;"	d	file:
+WRITE_ARRAY	noise.c	25;"	d	file:
+WRITE_ARRAY	sim_noise.cc	27;"	d	file:
+_MATRIX_H_	matrix.h	2;"	d
+_POL_H_	pol.h	2;"	d
+_RECT_H_	rect.h	2;"	d
+_SONAR_H_	sonar.h	2;"	d
+_VECTOR_H_	vector.h	2;"	d
+__init__	test.py	/^	def __init__(self,errnum,result):$/;"	m	class:exec_error
+__init__	test.py~	/^	def __init__(self,errnum,result):$/;"	m	class:exec_error
+__str__	test.py	/^	def __str__(self):$/;"	m	class:exec_error	file:
+__str__	test.py~	/^	def __str__(self):$/;"	m	class:exec_error	file:
+arms_ct	sonar.h	/^		static const int arms_ct = 3;$/;"	m	class:Sonar
+colsub	matrix.cc	/^Matrix Matrix::colsub(Vector *V, int columnr)$/;"	f	class:Matrix
+correlate	find_pulse.cc	/^double correlate(int i, int dly){$/;"	f
+cramers	matrix.cc	/^Vector Matrix::cramers( Vector *V)$/;"	f	class:Matrix
+debug	pol.h	/^		char	debug[100];$/;"	m	class:Pol
+debug	rect.h	/^		char	debug[100];$/;"	m	class:Rect
+det	matrix.cc	/^double Matrix::det()$/;"	f	class:Matrix
+dim	matrix.h	/^		static const int dim=3;$/;"	m	class:Matrix
+dim	vector.h	/^		static const int dim=3;$/;"	m	class:Vector
+exec_error	test.py	/^class exec_error(Exception):$/;"	c
+exec_error	test.py~	/^class exec_error(Exception):$/;"	c
+execute	test.py	/^def execute(cmd, log=0):$/;"	f
+execute	test.py~	/^def execute(cmd, log=0):$/;"	f
+find_pulse	find_pulse.cc	/^int find_pulse (double * rec_pulse, int N)$/;"	f
+frand	sim_noise.cc	/^double frand(double lo, double hi){$/;"	f
+m	matrix.h	/^	double m[dim*dim];$/;"	m	class:Matrix
+main	corr.cc	/^int main (int argc, char *argv[])$/;"	f
+main	main.cc	/^int main (int argc, char *argv[])$/;"	f
+main	noise.c	/^int main (int argc, char *argv[])$/;"	f
+phi	pol.h	/^		double r, phi, theta;$/;"	m	class:Pol
+pi	pol.cc	/^const double pi = 4.0*atan(1.0);$/;"	v
+pi	rect.cc	/^const double pi = 4.0*atan(1.0);$/;"	v
+print	matrix.cc	/^void Matrix::print()$/;"	f	class:Matrix
+print	pol.cc	/^char * Pol::print()$/;"	f	class:Pol
+print	rect.cc	/^char * Rect::print()$/;"	f	class:Rect
+print	sonar.cc	/^void Sonar::print()$/;"	f	class:Sonar
+print	vector.cc	/^void Vector::print()$/;"	f	class:Vector
+r	noise.c	/^double r(double max){$/;"	f
+r	pol.h	/^		double r, phi, theta;$/;"	m	class:Pol
+sim_noise	sim_noise.cc	/^void sim_noise(double *rec_pulse, int N, double noise_level, double res, double pulse_start)$/;"	f
+sqr	sonar.h	/^		inline double sqr(double v){return v*v;};$/;"	f	class:Sonar
+statistics	find_pulse.cc	/^int statistics(double *w, int N, int span, double *max, double *average, double *w_smooth){$/;"	f
+theta	pol.h	/^		double r, phi, theta;$/;"	m	class:Pol
+v	vector.h	/^	double v[dim];$/;"	m	class:Vector
+write_array	find_pulse.cc	/^void write_array(double *w, char* name, int N){$/;"	f
+write_array	noise.c	/^void write_array(double *w, int N, char* name){$/;"	f
+write_array	sim_noise.cc	/^void write_array(double *w, int N, char* name){$/;"	f
+x	rect.h	/^		double x,y,z;$/;"	m	class:Rect
+x_arm	sonar.h	/^		double x_arm, y_arm;$/;"	m	class:Sonar
+xy2rp	rect.cc	/^void xy2rp(double x,double y, double &r, double &phi)$/;"	f
+y	rect.h	/^		double x,y,z;$/;"	m	class:Rect
+y_arm	sonar.h	/^		double x_arm, y_arm;$/;"	m	class:Sonar
+z	rect.h	/^		double x,y,z;$/;"	m	class:Rect
